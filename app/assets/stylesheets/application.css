@@ -79,7 +79,7 @@ header {
   padding: 30px 0;
 }
 
-.portfolio-content {
+.content {
   margin: 0 auto; /*中央寄せ*/
   width: 920px;
   text-align: center;
@@ -95,6 +95,62 @@ header {
 .portfolio-photo {
   width: 300px;
   height: 250px;
+}
+
+.portfolio-photo {
+  background-size: cover;
+  background-position: center;
+}
+
+.portfolio-photo:nth-child(1) {
+  background-image: url(img/sketch.jpg);
+}
+
+.portfolio-photo:nth-child(2) {
+  background-image: url(img/talk.jpg);
+}
+
+.portfolio-photo:nth-child(3) {
+  background-image: url(img/webcamp-mother.png);
+}
+
+.portfolio-photo:nth-child(4) {
+  background-image: url(img/webcamp.png);
+}
+
+.portfolio-photo:nth-child(5) {
+  background-image: url(img/websuku.png);
+}
+
+.portfolio-photo:nth-child(6) {
+  background-image: url(img/write.jpg);
+}
+
+.strength-box {
+  display: flex;
+}
+
+.strength-area {
+  width: 320px;
+  height: auto;
+}
+
+.strength-area:ntn-child(2) {
+  padding: 0 10px;
+}
+
+i {
+  font-size: 60px;
+}
+
+.strength {
+  font-size: 20px;
+  color: #000000;
+  margin: 10px 0;
+}
+
+.explanation {
+  text-align: left;
 }
 
 .footer {
